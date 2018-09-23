@@ -69,6 +69,7 @@ public class ImitationOfTheMind {
         put("прощай", "bye");
         put("увидимся", "bye");
         put("до\\s.*свидания", "bye");
+        put("пока", "bye");
     }};
     final Map<String, String> ANSWERS_BY_PATTERNS = new HashMap<String, String>() {{
         put("hello", "Здравствуйте, рад Вас видеть.");
