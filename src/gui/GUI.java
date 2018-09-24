@@ -1,5 +1,7 @@
 package gui;
 
+import mind.ImitationOfTheMind;
+
 import javax.swing.*;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.SimpleAttributeSet;

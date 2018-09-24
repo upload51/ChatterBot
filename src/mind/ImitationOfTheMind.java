@@ -1,4 +1,4 @@
-package gui;
+package mind;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -70,6 +70,9 @@ public class ImitationOfTheMind {
         put("увидимся", "bye");
         put("до\\s.*свидания", "bye");
         put("пока", "bye");
+        //whatneed
+        put("что\\s.*нужно", "whatdoyouneed");
+        put("что\\s.*надо", "whatdoyouneed");
     }};
     final Map<String, String> ANSWERS_BY_PATTERNS = new HashMap<String, String>() {{
         put("hello", "Здравствуйте, рад Вас видеть.");
@@ -81,6 +84,7 @@ public class ImitationOfTheMind {
         put("iamfeelling", "Как давно это началось? Расскажите чуть подробнее.");
         put("yes", "Согласие есть продукт при полном непротивлении сторон.");
         put("bye", "До свидания. Надеюсь, ещё увидимся.");
+        put("whatdoyouneed", "Мне нужны твоя одежда обувь и мотоцикл.");
     }};
     Pattern pattern; // for regexp
     Random random; // for random answers
